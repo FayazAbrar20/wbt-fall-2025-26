@@ -5,43 +5,56 @@
     <title>
         Contact Me
     </title>
+    <link rel="stylesheet" href="../css/contact.css">
 </head>
 
 <body>
+
     <form method="GET">
-        Firstname : <input type="text" name="firstname" required>
-        <br>
-        <br>
-        Lastname : <input type="text" name="lastname" required>
-        <br>
-        <br>
-        Email : <input type="email" required>
-        <br>
-        <br>
-        Company : <input type="text">
-        <br>
-        <br>
-        Reason for contact :<br>
-        <input type="radio" name="reason" required>Project<br>
-        <input type="radio" name="reason" required>Thesis<br>
-        <input type="radio" name="reason" required>Job<br>
-        <br>
-        Services : <br>
+        <div class="div1">
+            <h2>Firstname : <input type="text" name="firstname" required>
+                <br>
+                <br>
+                Lastname : <input type="text" name="lastname" required>
+                <br>
+                <br>
+                Email : <input type="email" required>
+                <br>
+                <br>
+                Company : <input type="text">
+                <br>
+                <br>
+        </div>
+        <div class="div2">
+            Reason for contact :<br>
+            <input type="radio" name="reason" required>Project<br>
+            <input type="radio" name="reason" required>Thesis<br>
+            <input type="radio" name="reason" required>Job<br>
+            <br>
 
-        <required><input type="checkbox" name="service">webpage<br></required>
-        <required><input type="checkbox" name="service">Research<br></required>
-        <required><input type="checkbox" name="service">form develop<br></required>
+            Services : <br>
 
-        Book an appointment : <br>
-        <input type="date" required><br>
-        <br>
-        <input type="submit" value="Register">
-        <input type="reset" value="Reset">
+            <required><input type="checkbox" name="service">webpage<br></required>
+            <required><input type="checkbox" name="service">Research<br></required>
+            <required><input type="checkbox" name="service">form develop<br></required>
+
+        </div>
 
 
+        <div class="div3">
+            Book an appointment : <br>
+            <input type="date" required><br>
+            <br>
+            <input type="submit" value="Register">
+            <input type="reset" value="Reset">
+            </h2>
 
+
+
+        </div>
 
     </form>
+
 </body>
 
 </html>
