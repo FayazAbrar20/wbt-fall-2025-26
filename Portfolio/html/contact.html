@@ -12,27 +12,26 @@
 
     <form method="GET">
         <div class="div1">
-            <h2>Firstname : <input type="text" name="firstname" required>
+            <h2>Firstname <input type="text" name="firstname" required>
                 <br>
                 <br>
-                Lastname : <input type="text" name="lastname" required>
+                Lastname <input type="text" name="lastname" required>
                 <br>
                 <br>
-                Email : <input type="email" required>
+                Email <input type="email" required>
                 <br>
                 <br>
-                Company : <input type="text">
-                <br>
+                Company <input type="text">
                 <br>
         </div>
         <div class="div2">
-            Reason for contact :<br>
+            <span>Reason for contact </span> <br>
             <input type="radio" name="reason" required>Project<br>
             <input type="radio" name="reason" required>Thesis<br>
             <input type="radio" name="reason" required>Job<br>
             <br>
 
-            Services : <br>
+            <span>Services </span> <br>
 
             <required><input type="checkbox" name="service">webpage<br></required>
             <required><input type="checkbox" name="service">Research<br></required>
@@ -42,11 +41,14 @@
 
 
         <div class="div3">
-            Book an appointment : <br>
+            <span> Book an appointment </span> <br>
             <input type="date" required><br>
             <br>
-            <input type="submit" value="Register">
-            <input type="reset" value="Reset">
+            <div class="button-area">
+                <input type="submit" value="Register">
+                <input type="reset" value="Reset">
+            </div>
+
             </h2>
 
 
