@@ -1,0 +1,44 @@
+main {
+    display: inline-flex;
+
+}
+
+
+
+
+.box {
+    display: inline-block;
+    /* Step 3: side by side */
+    width: 250px;
+    margin: 15px;
+    /* Space between boxes */
+    padding: 15px;
+    /* Space inside box */
+    border: 2px solid #333;
+    /* Border */
+    background-color: white;
+    /* Background */
+    text-align: center;
+    vertical-align: top;
+    transition: 0.2s ease;
+
+}
+
+.box:hover {
+    outline: 3px solid #007bff;
+    outline-offset: 10px;
+}
+
+a {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: dashed;
+    color: white;
+    background-color: blue;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+
+a:hover {
+    background: black;
+}
