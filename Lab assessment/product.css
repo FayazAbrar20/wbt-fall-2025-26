@@ -8,16 +8,11 @@ main {
 
 .box {
     display: inline-block;
-    /* Step 3: side by side */
     width: 250px;
     margin: 15px;
-    /* Space between boxes */
     padding: 15px;
-    /* Space inside box */
     border: 2px solid #333;
-    /* Border */
     background-color: white;
-    /* Background */
     text-align: center;
     vertical-align: top;
     transition: 0.2s ease;
